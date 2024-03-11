@@ -2,6 +2,51 @@
   text-align: center;
 }
 
+.comment_edit{
+  border-radius: 1px;
+  border: none;
+}
+
+.quantity_edit{
+  border-radius: 5px;
+  border: 1px solid;
+}
+
+.main-bg{
+  height: 390px;
+  width: 100%;
+  background-image: url('../public/img/fern-1250903_1280.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.deleteButton{
+  /* margin-left: 10px; */
+  height: 30px;
+  color: white;
+  background-color: red;
+  border-radius: 5px;
+  border:none;
+}
+
+.editButton{
+  /* margin-left: 10px; */
+  height: 30px;
+  color: white;
+  background-color: blue;
+  border-radius: 5px;
+  border:none;
+}
+
+.table-spacing{
+  margin-bottom: 10px;
+}
+
+.left-text{
+  text-align: left;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
